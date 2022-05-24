@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Fan",
+        "id": 1,
+        "price": 500,
+        "quantity": "3"
+    },
+    {
+        "name": "LED",
+        "id": 2,
+        "price": 150,
+        "quantity": "25"
+    },
+    {
+        "name": "Iron",
+        "id": 3,
+        "price": 400,
+        "quantity": "5"
+    },
+    {
+        "name": "Bucket",
+        "id": 4,
+        "price": 50,
+        "quantity": "10"
+    },
+    {
+        "name": "Battery Cell",
+        "id": 5,
+        "price":10 ,
+        "quantity": "20"
+    },
+    {
+        "name": "Switch",
+        "id": 6,
+        "price": 25,
+        "quantity": "10"
+    },
+    {
+        "name": "Normal Bulb",
+        "id": 7,
+        "price": 15,
+        "quantity": "4"
+    },
+    {
+        "name": "CFL",
+        "id": 8,
+        "price": 100,
+        "quantity": "5"
+    }
+]

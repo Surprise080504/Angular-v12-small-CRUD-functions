@@ -1,0 +1,18 @@
+<div>
+  <h4>You Have Bought</h4>
+</div>
+<div>
+  <div class="col margin-top-bottom" *ngFor="let product of cartProductsList">
+    {{product.name}}
+    <div>
+      quantity - {{product.quantity}}
+    </div>
+  </div>
+</div>
+
+<div>
+  <h4>Cart Total was : rs. {{cartTotal}}</h4>
+</div>
+<div>
+  <a [routerLink]="['/cart']"> Go Back</a>
+</div>

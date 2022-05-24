@@ -1,0 +1,21 @@
+<!-- <div>
+  <span *ngFor="let product of productsList">
+    {{product.name}}
+  </span>
+</div> -->
+<div>
+  <span>Total Cart Value - Rs.{{cartTotal}}</span> - 
+  <a [routerLink]="['cart']">Go To Cart</a>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-4 margin-top-bottom" *ngFor="let product of productsList">
+      {{product.name}} - Rs. {{product.price}}
+      <div>
+        <button (click)="AddProductToCart(product)">Add To Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+
